@@ -2,6 +2,7 @@
   "name": "telegram-bot",
   "version": "1.0.0",
   "main": "index.js",
+  
   "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js"
@@ -11,6 +12,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "node-fetch": "^3.3.2",
     "node-telegram-bot-api": "^0.66.0",
     "nodemon": "^3.1.4"
   }
